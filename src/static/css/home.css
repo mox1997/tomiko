@@ -1,0 +1,11 @@
+/* home.css */
+
+/* Задний фон для страницы home */
+body {
+    background-image: url('{% static 'images/background.png' %}');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: blue; /* Цвет текста на фоне */
+    font-family: Arial, sans-serif;
+}
